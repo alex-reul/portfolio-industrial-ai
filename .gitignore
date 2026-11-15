@@ -1,0 +1,22 @@
+# --- Datos: NO se suben a GitHub (son muy grandes) ---
+**/datos/*
+!**/datos/LEEME.md
+*.xes
+*.xes.gz
+*.parquet
+*.zip
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
+desktop.ini
