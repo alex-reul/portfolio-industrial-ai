@@ -1,10 +1,13 @@
-# --- Datos: NO se suben a GitHub (son muy grandes) ---
-**/datos/*
-!**/datos/LEEME.md
+# --- Data: never versioned (hundreds of MB) ---
+**/data/*
+!**/data/README.md
 *.xes
 *.xes.gz
 *.parquet
 *.zip
+
+# --- Personal study notes (Spanish, local only) ---
+apuntes/
 
 # --- Python ---
 __pycache__/
@@ -16,7 +19,7 @@ venv/
 # --- Jupyter ---
 .ipynb_checkpoints/
 
-# --- Sistema ---
+# --- OS ---
 .DS_Store
 Thumbs.db
 desktop.ini
